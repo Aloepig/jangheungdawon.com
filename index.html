@@ -5,9 +5,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="jangheungdawon">
+    <meta name="description" content="장흥다원 전통발효차 청태전(장흥청태전영농조합법인)">
     <meta name="author" content="jangheungdawon">
-    <meta name="keywords" content="청태전, 홍차, 장흥, 다원, 다예원, 장내순">
+    <meta name="keywords" content="청태전, 황차, 장흥, 다원, 다예원, 장내순, 발효차, 전통식품">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="장흥다원">
+    <meta property="og:description" content="장흥다원 전통발효차 청태전(장흥청태전영농조합법인)">
+    <meta property="og:image" content="https://jangheungdawon.com/img/chungtaejeon.jpg">
+    <meta property="og:url" content="https://jangheungdawon.com">
 
     <title>장흥다원</title>
 
@@ -31,12 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="history.html">장흥다원안내</a>
+                        <a class="nav-link" href="page/history.html">장흥다원안내<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
             <h1 class="display-3 text-center">장흥 '청태전'</h1>
 
             <p class="lead">삼국시대부터 근세까지 장흥, 남해안지방을 중심으로 존재했던 발효차입니다. 떡차의 일종으로 동전 모양과 비슷해서 '전차' 또는 '돈차'라고 불렸고, 발효과정에서 파란색 이끼가 낀 것처럼 변한다 하여 '청태전'이라 합니다.</p>
-            <a href="itemlist.html" class="btn btn-primary btn-lg">판매중인 상품 목록</a>
+            <a href="page/itemlist.html" class="btn btn-primary btn-lg">판매중인 상품 목록</a>
         </header>
 
         <!-- Page Features -->
@@ -124,23 +124,14 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">&copy; 장흥청태전영농조합법인 2019 - <span id="getFullYear"></span> | 대표자 장내순</p>
-            <p class="m-1 text-center text-white">
-                사업자등록번호 415-81-37765
-                <br />통신판매업신고번호 전남장흥-2014-001호
-                <br />전라남도 장흥군 안양면 기산길 21
-                <br />대표전화 061-863-8758</p>
-        </div>
-        <!-- /.container -->
+    <footer id="JH_FOOTER" class="py-5 bg-dark">
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
-        $("#getFullYear").text(new Date().getFullYear());
+        $("#JH_FOOTER").load("page/footer.html");
 
     </script>
 
