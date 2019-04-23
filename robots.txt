@@ -1,0 +1,17 @@
+﻿User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-image
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: *
+Disallow: /
